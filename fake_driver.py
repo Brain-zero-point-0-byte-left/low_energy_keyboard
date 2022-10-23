@@ -6,10 +6,10 @@ import keyboard
 
 
 keyMapping = {
-    1: (keyboard.press_and_release, 'left'),
+    1: (keyboard.press, 'left'),
     2: (keyboard.press, 'down'),
     3: (keyboard.press, 'right'),
-    4: (keyboard.release, 'up'),
+    4: (keyboard.press, 'up'),
 }
 
 def receive(buffer: bytes):
